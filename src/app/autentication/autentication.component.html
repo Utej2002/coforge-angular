@@ -1,0 +1,7 @@
+<p>autentication works!</p>
+<form [formGroup]="formdata"
+(ngSubmit)="onClickSubmit(formdata.value)">
+<input name="emailid" placeholder="emailid" formControlName="emailid">
+<input name="password" placeholder="password" formControlName="password">
+<input type="submit" value="Login" >
+</form>
